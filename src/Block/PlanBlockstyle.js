@@ -1,0 +1,51 @@
+export const styles = {
+  planTitleAndButton: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 16.5,
+    marginBottom: 8,
+  },
+  planTitle: {
+    color: '#263238',
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    fontWeight: '500',
+    fontSize: 18,
+    lineHeight: 28,
+  },
+  buttonTitle: {
+    fontFamily: 'Nunito Sans',
+    fontStyle: 'normal',
+    fontWeight: 'normal',
+    fontSize: 12,
+    lineHeight: 18,
+    textAlign: 'center',
+    color: '#F1800D',
+  },
+  buttonOutline: {
+    borderWidth: 1,
+    borderColor: '#F1800D',
+    borderRadius: 11,
+  },
+  planDetails: {flexDirection: 'row', marginBottom: 8},
+  planValidityAndData: {
+    fontFamily: 'Nunito Sans',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: 12,
+    lineHeight: 16,
+    color: 'rgba(38, 50, 56, 0.7)',
+  },
+  planData: {
+    marginLeft: 22,
+  },
+  planDesc: {
+    fontFamily: 'Nunito Sans',
+    fontStyle: 'normal',
+    fontWeight: '300',
+    fontSize: 12,
+    lineHeight: 18,
+    color: 'rgba(38, 50, 56, 0.7)',
+    marginBottom: 7.5,
+  },
+};
